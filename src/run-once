@@ -1,0 +1,5 @@
+export LOCK_FILE=$1
+export MAX_LOCK_TIME=$2
+export COMMAND=$3
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source $DIR/run-once-skeleton
